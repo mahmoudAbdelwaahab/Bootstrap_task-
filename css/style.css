@@ -1,0 +1,303 @@
+
+body {
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'futura_ltbook', sans-serif;
+    color: #484848;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #484848;
+    font-family: 'futura_ltbold', sans-serif;
+}
+h1{font-size: 70px; margin:0; line-height: 72px;}
+h2 {font-size: 30px; margin: 0 0 20px;}
+h3 {font-size: 20px; margin: 0 0 10px;}
+img {width: 100%;}
+a,button{outline: 0 !important;}
+a:hover,a:focus{ text-decoration: none}
+
+/* Header */
+.top_nav {
+    background: #ffcb0f none repeat scroll 0 0;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.list-inline.info {
+    float: left;
+    margin: 0;
+}
+.list-inline.info > li {
+    padding: 0 20px 0 0;
+}
+.list-inline.info a,.list-inline.social_icon a {
+    color: #222;
+    font-family: 'futura_ltbook', sans-serif;
+}
+
+
+nav.navbar.bootsnav {
+    background: #222533 none repeat scroll 0 0;
+    border: 0 none;
+}
+.navbar-brand {
+    height: auto;
+    padding: 4px 15px;
+}
+
+/* Carousel */
+.carousel .overlay {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+.carousel-caption {
+    left: 7%;
+    right: 7%;
+    top: 70px;
+}
+.carousel-caption h1 {
+    color: #fff;
+    margin-bottom:20px;
+}
+.carousel-caption h1.second_heading {
+    color:#ffcb0f;
+    margin-bottom:35px;
+}
+.carousel-caption > h3 {
+    color: #fff;
+    font-family: "futura_ltbook",sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    text-transform: inherit;
+}
+.carousel-caption > p {
+    font-size: 23px;
+    line-height: 28px;
+}
+.btn.know_btn {
+    background: #ffcb0f none repeat scroll 0 0;
+    border-radius: 30px;
+    color: #fff;
+    font-family: "futura_ltbold",sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border:1px solid transparent;
+}
+.carousel-caption .btn.know_btn {
+    margin-top: 64px;
+}
+.carousel-caption .btn.know_btn:last-child {
+    margin-left: 20px;
+}
+.btn.know_btn:hover,
+.btn.know_btn:focus {
+    background: transparent;
+    color:#ffcb0f;
+    border:1px solid #ffcb0f;
+}
+
+/* About */
+.about_content > h2 {
+    font-size: 40px;
+    margin: 90px 0 15px;
+    color:#ffcb0f;
+}
+.about_content > h3 {
+    font-size: 30px;
+    margin: 2px 0 30px;
+    text-transform: inherit;
+}
+
+/* Why us */
+#why_us h2 {
+    margin: 70px 0 20px;
+}
+.why_us_item{ padding-top: 55px;}
+#why_us .fa{
+    border-radius: 100%;
+    box-shadow: 0 0 0 10px #ffcb0f, 0 0 0 20px #fadb64, 0 0 0 30px #f7e59c;
+    padding: 38px;
+    font-size:45px;
+}
+.why_us_item > h4 {
+    font-size: 15px;
+    margin: 60px 0 20px;
+}
+
+/* Services */
+#services h2 {
+    margin: 85px 0 50px;
+    text-align:center;
+}
+.service_item > h3 {
+    margin: 25px 0 15px;
+}
+.service_item .btn.know_btn {
+    margin: 20px 0 100px;
+}
+
+/* Contact form */
+#contact_form {
+    background: #fedb5d none repeat scroll 0 0;
+    padding:27px 0 32px;
+}
+#contact_form h2 {
+    margin: 20px 0 0;
+    color:#73757e;
+}
+#contact_form .second_heading {
+    font-size: 40px;
+    font-family: "futura_ltbook",sans-serif;
+    margin:8px 0;
+}
+#contact_form form.form-inline {
+    padding-right: 27px;
+}
+#contact_form .form-inline .form-control {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 45px;
+    margin: 8px;
+    padding: 10px 20px;
+    width: 250px;
+    box-shadow: none;
+}
+#contact_form .form-inline textarea.form-control {
+    width: 388px;
+    resize:none;
+}
+#contact_form .form-control:focus {
+    border: 2px solid #ffcb0f;
+    box-shadow: 0px 0px 5px 1px #ffcb0f;
+}
+#contact_form .btn.submit_btn {
+    background: #73757e none repeat scroll 0 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform:uppercase;
+    height: 45px;
+    width: 120px;
+    border-radius: 10px;
+    margin: 6px 8px 6px 0;
+}
+.form-control::-moz-placeholder{color:#adadad;}
+.form-control:-ms-input-placeholder{color:#adadad;}
+.form-control::-webkit-input-placeholder{color:#adadad;}
+#contact_form .btn.submit_btn:hover {
+    background: #555 none repeat scroll 0 0;
+}
+
+/* Footer */
+footer {
+    background: url(../images/footer_bg.jpg)no-repeat;
+    background-size:cover;
+    position:relative;
+    padding-top:45px;
+}
+
+footer::after {
+    background: rgba(34, 37, 51, 0.9) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.footer_top,.footer_bottom{ position:relative; z-index:1; color:#fff;}
+.footer_item > h4 {
+    color: #fff;
+    font-family: "futura_ltbook",sans-serif;
+    font-size: 25px;
+    margin-bottom: 34px;
+    text-transform: inherit;
+}
+.footer_item .list-unstyled > li a{
+    color: #fff;
+}
+.footer_item .logo {
+    margin-bottom: 15px;
+    width: 200px;
+}
+.list-inline.footer_social_icon {
+    margin: 32px 0 0;
+}
+.footer_social_icon .fa {
+    background: #ffcb0f none repeat scroll 0 0;
+    border-radius: 100%;
+    color: #222;
+    font-size: 20px;
+    height: 45px;
+    padding: 12px;
+    text-align: center;
+    width: 45px;
+}
+.footer_item .footer_social_icon .fa:hover,.footer_item .footer_social_icon .fa:focus {
+    background: #d7a300 none repeat scroll 0 0;
+}
+.footer_menu .fa {
+    font-size: 10px;
+    margin-right: 18px;
+}
+.list-unstyled.footer_menu > li {
+    padding: 4px 0;
+}
+.list-unstyled.post,.list-unstyled.footer_contact {
+    margin-top: -14px;
+}
+.post .date {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    display: block;
+    float: left;
+    font-size: 20px;
+    height: 50px;
+    line-height: 12px;
+    margin-right: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 50px;
+}
+.footer_item li a:hover .date,.footer_item li a:focus .date{ border:2px solid #aaa; }
+.footer_item li a:hover,.footer_item li a:focus{
+    color: #aaa;
+}
+.post .date small {
+    font-size: 12px;
+}
+
+.list-unstyled.post > li,.list-unstyled.footer_contact > li {
+    padding: 14px 0;
+    overflow:hidden;
+}
+.footer_contact .fa {
+    margin-right: 25px;
+    text-align: center;
+    width: 15px;
+    float: left;
+    font-size:18px;
+}
+.list-unstyled.footer_contact p {
+    overflow: hidden;
+}
+.footer_bottom {
+    background: #1a1c27 none repeat scroll 0 0;
+    padding: 28px 0 18px;
+    margin-top:55px;
+}
+.footer_bottom a {
+    color: #ffcb0f;
+}
+.footer_bottom a:hover,.footer_bottom a:focus {
+    color: #d7a300;
+}
+
